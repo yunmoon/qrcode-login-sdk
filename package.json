@@ -1,0 +1,27 @@
+{
+  "name": "qrcode-login-sdk",
+  "version": "1.0.0",
+  "description": "二维码登录jssdk",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "author": "meiyun",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qrious": "^4.0.2",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
